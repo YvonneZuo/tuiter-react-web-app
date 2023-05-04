@@ -1,0 +1,122 @@
+div {
+    margin-left: 16px;
+    margin-right: 14px;
+
+}
+
+.wd-bg-black {
+    background-color: black;
+}
+
+
+.wd-flex-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* height: 50px;
+    width: 100%; */
+    /* background-color: transparent; */
+    /* overflow: auto; */
+}
+
+.wd-gray-section {
+    background-color: #323232;
+    height: 10px;
+}
+
+.wd-border-black {
+    border-color: black;
+}
+
+input[type="text"] {
+    color: white;
+    border: none;
+    background-color: #323232;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 85%;
+}
+
+.wd-setting-link {
+    /* position: absolute; */
+    right: 12px;
+    color: rgb(29, 161, 242);
+    font-size: 30px;
+}
+
+.wd-highlighted {
+    color: rgb(29, 161, 242);
+    font-size: 15px;
+}
+
+.wd-unhighlighted {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wd-border-hidden {
+    border-style: hidden;
+}
+
+a {
+    font: 15px;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.wd-blue-border {
+    border-bottom: rgb(29, 161, 242) solid 4px;
+}
+
+.wd-topic {
+    font: 13px;
+    color:rgb(110, 118, 125)
+}
+
+
+.wd-title {
+    color: white;
+    font: 18px;
+}
+
+.wd-row {
+    clear: both
+}
+
+.wd-flex-col {
+    flex-direction: column;
+}
+
+.wd-align-start {
+    align-items: flex-start;
+}
+
+.wd-line-height{
+    line-height: 0.4;
+}
+
+.wd-icon {
+    border-radius: 25px;
+    height: 20px;
+    width: 25px;
+
+}
+
+.wd-name {
+    color: white;
+}
+
+
+.wd-pic {
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-right: 16px;
+}
+
+.wd-margin-top {
+    margin-top: 10px;
+}
