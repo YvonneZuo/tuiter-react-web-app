@@ -45,11 +45,6 @@ span {
     border: none;
 }
 
-.wd-middle {
-    display: flex;
-    flex-direction: column;
-    border: solid;
-}
 
  .wd-pic-text {
     width: 300px;
@@ -64,5 +59,42 @@ span {
 
  .wd-content-card {
     display: flex;
-    border: solid;
+    justify-content: space-between;
+    /* border: solid; */
  }
+
+ .wd-relative-btn {
+    position: relative;
+    bottom: 40px;
+
+ }
+
+ .wd-color-lightgray {
+    color: rgb(124, 121, 121);
+ }
+
+ .wd-color-darkgray {
+    color: rgb(64, 63, 63);
+ }
+
+ .wd-round-corner {
+    border-radius: 50%;
+ }
+
+ /* .wd-flex-col {
+    display: flex;
+    flex-direction: column;
+} */
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.btn-primary.btn-follow {
+    /* font: 20px; */
+    border-radius: 25px;
+}
