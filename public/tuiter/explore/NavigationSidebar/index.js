@@ -1,44 +1,51 @@
 const NavigationSidebar = () => {
-   return (` <div class="list-group">
+   return (`
+   <div class="list-group">
         <a class="list-group-item" href="/">
             <i class="fab fa-twitter"></i>
         </a>
-        <a class="list-group-item" href="/">
-            <i class="fa fa-home"></i>
-            <span class="d-none d-xl-block">Home</span>
+        <a href="home.html" class="list-group-item d-flex align-items-center">
+        <i class="fa fa-home"></i>
+        <span class="d-none d-xl-block ms-2">Home</span>
         </a>
-        <a class="list-group-item" href="/">
+        <a href="explore.html" class="list-group-item active d-flex align-items-center">
             <i class="fa fa-hashtag"></i>
-            <span class="d-none d-xl-block">Explore</span>
+            <span class="d-none d-xl-block ms-2">Explore</span>
         </a>
-        <a class="list-group-item" href="/">
+        <a href="notifcation.html" class="list-group-item d-flex align-items-center">
             <i class="fa fa-bell"></i>
-            <span class="d-none d-xl-block">Notifications</span>
+            <span class="d-none d-xl-block ms-2">Notifications</span>
         </a>
-        <a class="list-group-item" href="/">
+        <a href="message.html" class="list-group-item d-flex align-items-center">
             <i class="fa fa-envelope"></i>
-            <span class="d-none d-xl-block">Messages</span>
+            <span class="d-none d-xl-block ms-2">Messages</span>
         </a>
-        <a class="list-group-item" href="/">
+        <a href="bookmart.html" class="list-group-item d-flex align-items-center">
             <i class="fa fa-bookmark"></i>
-            <span class="d-none d-xl-block">Bookmarks</span>
+            <span class="d-none d-xl-block ms-2">Bookmarks</span>
         </a>
-        <a class="list-group-list" href="/">
-            <i class="fa fa-home"></i>
-            <span class="d-none d-xl-block">Lists</span>
+        <a href="list.html" class="list-group-item d-flex align-items-center">
+            <i class="fa fa-list"></i>
+            <span class="d-none d-xl-block ms-2">Lists</span>
         </a>
-        <a class="list-group-item" href="/">
+        <a href="profile.html" class="list-group-item d-flex align-items-center">
             <i class="fa fa-user"></i>
-            <span class="d-none d-xl-block">Profile</span>
+            <span class="d-none d-xl-block ms-2">Profile</span>
         </a>
-        <a class="list-group-item" href="/">
+        <a href="more.html" class="list-group-item d-flex align-items-center">
             <i class="fa fa-circle"></i>
-            <span class="d-none d-xl-block">More</span>
+            <span class="d-none d-xl-block ms-2">More</span>
         </a>
-        <a href="tweet.html" class="btn btn-primary rounded-pill"></a>
-
     </div>
+        <div class="d-grid mt-2">
+        <a href="tweet.html" class="btn btn-primary btn-block rounded-pill">
+        Tweet</a>
+
+         </div>
     `);
 }
+
+const sideBar = $('#sideBar');
+sideBar.html(`${NavigationSidebar()}`);
 
 export default NavigationSidebar;

@@ -1,0 +1,33 @@
+.wd-search-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wd-search-left {
+    border:  solid lightgray;
+    background-color: white;
+    border-radius: 25px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.wd-search-icon {
+    margin-left: 8px;
+}
+
+.wd-cog-icon {
+    color: rgb(52, 110, 211);
+    margin-right: 0;
+}
+
+
+ input {
+    margin-left: 16px;
+    height: 100%;
+    width: 90%;
+    border: none;
+    background-color: white;
+}
