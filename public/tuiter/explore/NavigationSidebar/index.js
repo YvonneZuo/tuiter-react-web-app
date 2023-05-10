@@ -45,7 +45,7 @@ const NavigationSidebar = () => {
     `);
 }
 
-const sideBar = $('#sideBar');
-sideBar.html(`${NavigationSidebar()}`);
+// const sideBar = $('#sideBar');
+// sideBar.html(`${NavigationSidebar()}`);
 
 export default NavigationSidebar;
