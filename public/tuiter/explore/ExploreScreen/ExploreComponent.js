@@ -41,5 +41,5 @@ const ExploreComponent = () => {
 }
 export default ExploreComponent;
 
-const renderExplore = $(`#exploreComponent`);
-renderExplore.html(ExploreComponent());
+// const renderExplore = $(`#exploreComponent`);
+// renderExplore.html(ExploreComponent());
