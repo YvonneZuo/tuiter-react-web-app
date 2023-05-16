@@ -34,10 +34,7 @@ const HomeTweet = ({
                     <i className="bi bi-three-dots float-end"></i>
                     <div>{tweet.title} <span className="text-primary">{tweet.link}</span></div>
                     {tweet.image &&
-                        <img className="rounded-3" width={450} src={`/images/${tweet.image}`}/>}
-                    {/* <div>
-                        {<HomeTweet tweet = {tweet.retweetContent}/>}
-                    </div> */}
+                        <img className="rounded-3 w-100" src={`/images/${tweet.image}`}/>}
                     <div className="row mt-2">
                         <div className="col-3">
                             <i className="bi bi-chat"></i>
